@@ -3,9 +3,14 @@ img {
 }
 
 #js-container {
+    position: absolute;
     display: grid;
     height: 600px;
-    justify-content: center;
+    width: 100%;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    grid-template-rows: 1fr;
 }
 
 
@@ -23,7 +28,6 @@ img {
     height: 70px;
     background: white;
     font-size: 1.3em;
-    left:100px;
     border-radius: 10px;
 }
 
@@ -32,11 +36,11 @@ img {
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 50px solid transparent;
-    border-left: 0 solid transparent;
+    border-top: 40px solid transparent;
+    border-left: -30px solid transparent;
     border-right: 20px solid white;
-    border-bottom: 40px solid white;
-    margin: -50px 510px -150px 255px;
+    border-bottom: 50px solid white;
+    margin: -60px 510px -150px 255px;
  }
 
  #js-speech-bubble {
